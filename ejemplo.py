@@ -52,9 +52,3 @@ class Indigena(Humano):
         super().prueba(hola)
         print("robert y daniela")
         
-
-wayuu = Indigena(10, "negro")
-print(wayuu.ojos)
-print(wayuu.cama)
-print(wayuu.color)
-print(wayuu.prueba("hola"))
