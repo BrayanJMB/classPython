@@ -1,3 +1,7 @@
+import asyncio
+import math
+from operator import truediv
+from ejemplo2 import ejemplo as raizCuadrada
 # Interpretado, y no ejecutado( más lento C#, Java, C++, C)
 # Todo es un objeto
 # tipos de datos(int, float, complex, str)
@@ -11,6 +15,7 @@ list_ = [1,2,3,1.5,99003.32, "jksalj"]
 tupla_ = (1,2,3,4,5,"jdskal","jdklas",120.93)
 print(tupla_)
 tupla2 =  list(tupla_)
+print(math.pi)
 
 # Diccionario
 dict_ =  {"hola":"mundo", "como":"estas"}
@@ -21,7 +26,7 @@ dict_ =  {"hola":"mundo", "como":"estas"}
 for i,j in dict_.items():
     print(i,j)
 
-
+raizCuadrada(8,90)
 # C#, Prueba (Prueba), TypeScript, constructor, (Js C# / this) = self
 # Class POO
 # Herencia, Java, Js, c#, C++...., Herencia Multiple
